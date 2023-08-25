@@ -24,7 +24,7 @@ const Contact = () => {
     <section className='contact py-[40px] min-h-[100vh] dark:bg-dark dark:text-light-text bg-light text-dark-text flex flex-col justify-center'>
      <div className='contact_title font-bold text-center'>
         <h1 className='relative uppercase tracking-widest text-[1.8rem]  py-4'>contact</h1>
-        <p className='font-normal mt-3'>Want to chat? I'm just a click away, no computer science degree required.</p>
+        <p className='font-normal mt-3 px-[20px]'>Want to chat? I'm just a click away, no computer science degree required.</p>
       </div>
       <form className=' px-[20px] md:px-[30px] py-[40px] space-y-[30px]' onSubmit={handleSubmit}>
         <div className='form_input text-sm md:text-lg'>

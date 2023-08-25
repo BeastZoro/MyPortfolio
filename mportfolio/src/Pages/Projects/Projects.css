@@ -1,8 +1,19 @@
+.project_title h1::after{
+    content: "";
+    width: 30px;
+    height: 4px;
+    background-color: #A64DA6;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    border-radius: 5px;
+}
+
 .projects_wrapper{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
     grid-auto-rows: 300px;
     justify-content: center;
     gap: 30px;
-
 }

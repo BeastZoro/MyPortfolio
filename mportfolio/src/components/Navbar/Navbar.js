@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Navbar.css'
+import { Link } from 'react-scroll'
 
 const Navbar = ({ theme, toggleTheme }) => {
 
@@ -39,7 +40,7 @@ const Navbar = ({ theme, toggleTheme }) => {
                             return (
                                 <li key={index} className='text-lg border-b-2 border-transparent dark:hover:border-white
                                 hover:border-black duration-300 cursor-pointer'>
-                                    <a href={ele.link}>{ele.name}</a>
+                                    <Link onClick={() => setNavMenu(false)} to={ele.name} smooth duration={500}>{ele.name}</Link>
                                 </li>
                             )
                         })}

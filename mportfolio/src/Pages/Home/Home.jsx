@@ -1,10 +1,10 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
     <section className="home  md:h-[80vh] relative top-[90px] flex flex-col items-center justify-center gap-[50px] py-[50px] dark:bg-dark dark:text-light-text bg-light text-dark-text">
-
       <div className="home_info flex flex-col gap-[30px] px-[20px]">
         <div className="text-center flex flex-col gap-3">
           <h1 className="text-[2rem] md:text-[3.5rem] uppercase font-bold">
@@ -25,9 +25,9 @@ const Home = () => {
           >
             Resume
           </a>
-          <a className="bg-gray-200 text-dark-text" href="#">
+          <Link to="projects" smooth duration={500} className="bg-gray-200 text-dark-text">
             Projects
-          </a>
+          </Link>
         </div>
       </div>
 

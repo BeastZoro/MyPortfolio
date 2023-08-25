@@ -1,0 +1,44 @@
+.contact_title h1::after{
+    content: "";
+    width: 30px;
+    height: 4px;
+    background-color: #A64DA6;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    border-radius: 5px;
+}
+
+.contact form{
+    width: min(800px, 90%);
+    margin: 30px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+}
+
+.form_input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form_input label{
+    cursor: pointer;
+}
+
+.form_input input, textarea{
+    background-color: rgba(100, 100, 100, 0.123);
+    padding: 8px 10px;
+    outline: none;
+    border: 0;
+    resize: none;
+    border-radius: 8px;
+}
+
+.contact form button{
+    font-weight: 500;
+    padding: 10px 30px;
+    background-color: #A64DA6;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

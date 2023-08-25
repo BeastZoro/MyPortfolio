@@ -1,0 +1,8 @@
+.projects_wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+    grid-auto-rows: 300px;
+    justify-content: center;
+    gap: 30px;
+
+}

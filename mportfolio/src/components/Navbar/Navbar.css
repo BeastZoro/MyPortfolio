@@ -1,0 +1,26 @@
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 1.25rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: .7rem 1rem;
+    border-radius: 100px;
+}
+
+.nav_links{
+    display: flex;
+    gap: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+}

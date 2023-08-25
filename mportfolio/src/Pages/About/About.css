@@ -1,0 +1,30 @@
+/* .about{
+    position: relative; */
+    /* z-index: -1;
+} */
+
+.about_title h1::after{
+    content: "";
+    width: 30px;
+    height: 4px;
+    background-color: #A64DA6;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    border-radius: 5px;
+}
+
+.contact_btn{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.skill{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.skill:hover{
+    transform: scale(1.05);
+}

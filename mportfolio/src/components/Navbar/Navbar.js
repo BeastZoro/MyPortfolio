@@ -28,10 +28,12 @@ const Navbar = ({ theme, toggleTheme }) => {
     return (
         <nav className='fixed z-[100] w-full md:px-[5%] dark:bg-dark bg-light h-[90px]'>
             <div className='container mx-auto flex items-center justify-between dark:text-light-text text-dark-text'>
-                <div className='logo'>
-                    <h1 className='bg-[#A64DA6] text-light-text px-5 py-3.5 rounded-full'>M</h1>
-                    <p className='text-lg font-bold'>Kumar</p>
-                </div>
+                <Link to='home' duration={500} smooth>
+                    <div className='logo cursor-pointer'>
+                        <h1 className='bg-[#A64DA6] text-light-text px-5 py-3.5 rounded-full'>M</h1>
+                        <p className='text-lg font-bold'>Kumar</p>
+                    </div>
+                </Link>
 
                 <div className={`nav_links_wrapper absolute top-[0] ${navMenu ? 'right-0' : 'right-[-100%]'} duration-500 w-[70%] md:static md:w-full md:bg-transparent md:h-fit h-[100vh] flex md:justify-end bg-[#E6E6E6] text-dark-text dark:bg-[#808080] dark:text-light-text md:dark:bg-transparent`}>
 
@@ -53,7 +55,7 @@ const Navbar = ({ theme, toggleTheme }) => {
                         </div>
                     </ul>
                 </div>
-                
+
                 <div className='md:ml-10 flex gap-5 items-center  z-10'>
                     <div onClick={toggleTheme} className='cursor-pointer'>
                         {theme === 'dark' ? <i className="fa-solid fa-sun"></i> : <i className="fa-solid fa-moon"></i>}

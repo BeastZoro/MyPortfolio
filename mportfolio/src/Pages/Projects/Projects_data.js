@@ -1,6 +1,7 @@
 import cart_app from '../../assets/Images/cart_app.png'
 import colorblends from '../../assets/Images/colorblends.png'
-
+import teams_image from '../../assets/Images/teams_page.png'
+import realstate from '../../assets/Images/pythonrealstate.png'
 
 const  Project_data = [
     {
@@ -18,6 +19,22 @@ const  Project_data = [
         desc : 'This React app is designed to enhance your shopping experience. It fetches products via an API and organizes them into dynamic categories, streamlining your choices. With category-based filters, finding your desired products is a breeze. You can easily add products to your cart, adjust quantities, and watch the total update in real-time on the cart page. The magic lies in the useContext hook, effectively managing app states. Plus, the app proudly showcases the total product count in your cart for quick reference.',
         image :cart_app,
         technologies : ['react', 'css']
+    },
+    {
+        name: 'Teams Manager',
+        link : 'https://sciastra-team.netlify.app/',
+        code : 'https://github.com/BeastZoro/ReactPro/tree/main/teampage',
+        desc : 'This React app is designed to enhance your shopping experience. It fetches products via an API and organizes them into dynamic categories, streamlining your choices. With category-based filters, finding your desired products is a breeze. You can easily add products to your cart, adjust quantities, and watch the total update in real-time on the cart page. The magic lies in the useContext hook, effectively managing app states. Plus, the app proudly showcases the total product count in your cart for quick reference.',
+        image :teams_image,
+        technologies : ['react', 'css', 'tailwindcss']
+    },
+    {
+        name: 'real estate',
+        link : '',
+        code : 'https://github.com/BeastZoro/Python_Projects/tree/main/realstate',
+        desc : 'This React app is designed to enhance your shopping experience. It fetches products via an API and organizes them into dynamic categories, streamlining your choices. With category-based filters, finding your desired products is a breeze. You can easily add products to your cart, adjust quantities, and watch the total update in real-time on the cart page. The magic lies in the useContext hook, effectively managing app states. Plus, the app proudly showcases the total product count in your cart for quick reference.',
+        image :realstate,
+        technologies : ['python', 'django', 'bootstarp', 'css']
     },
     
 ]

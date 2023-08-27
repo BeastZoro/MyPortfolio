@@ -13,7 +13,7 @@ const Projects = () => {
         </h1>
       </div>
 
-      <div className="projects_wrapper px-[30px] py-[20px]">
+      <div className="projects_wrapper grid md:grid-cols-2 lg:grid-cols-3 px-[30px] py-[20px]">
        {
         Project_data.map((ele,index) =>  <Project key={index} proj={ele} />)
        }

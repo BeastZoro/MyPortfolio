@@ -25,7 +25,7 @@ const Home = () => {
           >
             Resume
           </a>
-          <Link to="projects" smooth duration={500} className="bg-gray-200 text-dark-text">
+          <Link to="projects" smooth duration={500} className="bg-gray-200 text-dark-text cursor-pointer">
             Projects
           </Link>
         </div>

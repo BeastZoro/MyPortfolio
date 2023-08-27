@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useForm, ValidationError } from "@formspree/react";
 import "./Contact.css";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';

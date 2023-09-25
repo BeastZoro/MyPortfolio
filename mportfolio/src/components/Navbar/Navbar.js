@@ -4,6 +4,8 @@ import { Link } from 'react-scroll'
 
 const Navbar = ({ theme, toggleTheme }) => {
 
+    // Navbar json data
+
     const [navMenu, setNavMenu] = useState(false)
 
     const navLinks = [
